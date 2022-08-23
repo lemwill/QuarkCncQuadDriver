@@ -1172,8 +1172,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "QuarkCncQuadDriver",
-      "PersonnalFootprintLibrary"
+      "PersonnalFootprintLibrary",
+      "QuarkCncQuadDriver"
     ],
     "pinned_symbol_libs": [
       "PersonnalSymbolLibrary",
