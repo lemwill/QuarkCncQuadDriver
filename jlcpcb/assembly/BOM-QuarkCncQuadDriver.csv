@@ -55,12 +55,3 @@ Conn_02x04_Odd_Even,"J6,J7,J8,J9",IDC-Header_2x04_P2.54mm_Vertical,C9135
 47uF 10V,"C40,C41",C_1206_3216Metric,C96123
 W25Q128JVS,U22,SOIC-8_5.23x5.23mm_P1.27mm,C97521
 tps54331DR,U24,SOIC-8_3.9x4.9mm_P1.27mm,C9865
-DNI,R40,C_0402_1005Metric,
-120 (DNI),R59,R_1206_3216Metric,
-MountingHole,H3,MountingHole_3.2mm_M3_ISO7380,
-Conn_01x03_Male,J2,PinHeader_1x03_P2.54mm_Vertical,
-DNI,R60,R_0402_1005Metric,
-MountingHole,H1,MountingHole_3.2mm_M3_ISO7380,
-MountingHole,H2,MountingHole_3.2mm_M3_ISO7380,
-MountingHole,H4,MountingHole_3.2mm_M3_ISO7380,
-DNI,R58,R_0402_1005Metric,
