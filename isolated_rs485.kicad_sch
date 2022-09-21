@@ -542,7 +542,7 @@
   (symbol (lib_id "Device:C") (at 165.1 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 501f727d-7200-4156-955d-d3f497bbd9fe)
-    (property "Reference" "C58" (id 0) (at 161.29 66.6749 0)
+    (property "Reference" "C59" (id 0) (at 161.29 66.6749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n 50V" (id 1) (at 154.94 73.0249 0)

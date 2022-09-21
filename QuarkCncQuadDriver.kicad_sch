@@ -3304,13 +3304,13 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 27.94 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" (id 2) (at 27.94 168.91 0)
+    (property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (id 2) (at 27.94 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 27.94 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C8387" (id 4) (at 27.94 168.91 0)
+    (property "LCSC" "C90074" (id 4) (at 27.94 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 753b25a0-d8ee-4901-b270-c868d3258a4a))
@@ -4963,83 +4963,86 @@
     (path "/bf27cb00-183a-4c3d-b1e3-555a0e5db72e/0e2fe19d-8c33-4f7b-b8cc-8cb30fee5f8a"
       (reference "C32") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/3df9a3d0-a9d4-4aef-8709-bf1577f70978"
-      (reference "C33") (unit 1) (value "4.7uF 50V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    (path "/bf27cb00-183a-4c3d-b1e3-555a0e5db72e/a673db69-92f9-4a7f-b3f8-81452063791f"
+      (reference "C33") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/71f3214c-61e3-4def-a154-63bcb5173768"
+    (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/3df9a3d0-a9d4-4aef-8709-bf1577f70978"
       (reference "C34") (unit 1) (value "4.7uF 50V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
+    (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/71f3214c-61e3-4def-a154-63bcb5173768"
+      (reference "C35") (unit 1) (value "4.7uF 50V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
     (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/192d24bc-fde0-4f8b-914c-6b3e3bc08ed1"
-      (reference "C35") (unit 1) (value "10nF 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C36") (unit 1) (value "10nF 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/f18594e5-9b5b-490f-bc42-520ead644456"
-      (reference "C36") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C37") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/b598106a-91f9-431b-ae75-daf04a21a356"
-      (reference "C37") (unit 1) (value "47pF 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C38") (unit 1) (value "47pF 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/4b940456-b193-4745-841e-c2d331ad5dea"
-      (reference "C38") (unit 1) (value "1nF 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C39") (unit 1) (value "1nF 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/b152d359-8327-43a2-8bb3-ea8f653dd2d3"
-      (reference "C39") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C40") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/9e8ec70e-b6af-4789-ae3d-ea0356982f8c"
-      (reference "C40") (unit 1) (value "47uF 10V") (footprint "Capacitor_SMD:C_1206_3216Metric")
-    )
-    (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/5ed61915-6f2c-41a5-a1a2-4d51d92fa86c"
       (reference "C41") (unit 1) (value "47uF 10V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/4392e509-54a5-4657-97ae-2308fe11b32e"
-      (reference "C42") (unit 1) (value "2.2u 100V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/5ed61915-6f2c-41a5-a1a2-4d51d92fa86c"
+      (reference "C42") (unit 1) (value "47uF 10V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/454cee0f-351c-40e1-8c42-27aade89883d"
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/4392e509-54a5-4657-97ae-2308fe11b32e"
       (reference "C43") (unit 1) (value "2.2u 100V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/454cee0f-351c-40e1-8c42-27aade89883d"
+      (reference "C44") (unit 1) (value "2.2u 100V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
     (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/ceeb2da2-3d9b-46ea-a4de-4a0bebdf21ec"
-      (reference "C44") (unit 1) (value "330p 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C45") (unit 1) (value "330p 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/35034e74-6e1f-4abd-8535-e530258b1880"
-      (reference "C45") (unit 1) (value "10n 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C46") (unit 1) (value "10n 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/ff57b809-5f3d-42d1-aa49-0d83bc63eb10"
-      (reference "C46") (unit 1) (value "470n 25V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C47") (unit 1) (value "470n 25V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/f7fadbcf-fec3-4d38-85f5-dd92761f5752"
-      (reference "C47") (unit 1) (value "10n 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C48") (unit 1) (value "10n 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/1c333489-821f-4427-88a5-aaa12165d37f"
-      (reference "C48") (unit 1) (value "22n 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C49") (unit 1) (value "22n 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/25ee38d2-3261-415e-80ff-07bbc9df7968"
-      (reference "C49") (unit 1) (value "330p 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C50") (unit 1) (value "330p 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/744f2871-913c-4388-972d-1ad2d33ab1b5"
-      (reference "C50") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
-    )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/027d6ca7-a491-4e2e-b867-7de671d60632"
       (reference "C51") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/46e893a3-ef3f-4feb-96e8-b3c78499fd23"
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/027d6ca7-a491-4e2e-b867-7de671d60632"
       (reference "C52") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/ac2be0d3-66c3-49b7-ad58-46a5fc44a774"
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/46e893a3-ef3f-4feb-96e8-b3c78499fd23"
       (reference "C53") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/63d1efe5-8772-423c-b332-e670e3e80f06"
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/ac2be0d3-66c3-49b7-ad58-46a5fc44a774"
       (reference "C54") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/23485114-9a2f-4af6-9811-e2a2707b0797"
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/63d1efe5-8772-423c-b332-e670e3e80f06"
       (reference "C55") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/c0e52b0a-7881-491f-9229-26a5c5019a4b"
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/23485114-9a2f-4af6-9811-e2a2707b0797"
       (reference "C56") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
-    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/4a8c1cb9-0d86-48c3-9e47-d2edce71d330"
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/c0e52b0a-7881-491f-9229-26a5c5019a4b"
       (reference "C57") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
+    (path "/6ed377bc-c780-464a-91a0-d1c5cec4f3cf/4a8c1cb9-0d86-48c3-9e47-d2edce71d330"
+      (reference "C58") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
     (path "/9a44efa7-ee1f-4c21-8d8c-e7920b23c13b/501f727d-7200-4156-955d-d3f497bbd9fe"
-      (reference "C58") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C59") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4611acef-5151-48fe-83d6-67dc7dc8dd35/ca767b4f-536d-4fff-a103-407a10afffd6"
       (reference "D1") (unit 1) (value "RED LED") (footprint "LED_SMD:LED_0805_2012Metric")
@@ -5078,7 +5081,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380")
     )
     (path "/8b1cb39c-c4de-4376-955e-d8ad01d75818"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal")
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal")
     )
     (path "/5d4b571b-da8b-4434-ba7a-c64eb850535a"
       (reference "J2") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -5327,10 +5330,10 @@
       (reference "U1") (unit 1) (value "StepperDriver_Conn2") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
     )
     (path "/dfb9bda1-79ec-49a0-b6bd-881f79d199c3/ab9c6e02-9936-4337-b505-06f476113a61"
-      (reference "U2") (unit 1) (value "StepperDriver") (footprint "QuarkCncQuadDriver:StepperDriverV2")
+      (reference "U2") (unit 1) (value "StepperDriver") (footprint "QuarkCncQuadDriver:StepperDriverV3")
     )
     (path "/dfb9bda1-79ec-49a0-b6bd-881f79d199c3/ddf2561d-78cb-49d4-b745-e82cffdb38d3"
-      (reference "U3") (unit 1) (value "StepperDriver_Conn1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
+      (reference "U3") (unit 1) (value "StepperDriver_Conn1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical")
     )
     (path "/270c26d8-a036-494f-a9a4-d49e3e9dd71b/68d56830-5948-491b-9668-8360717c16bd"
       (reference "U4") (unit 1) (value "EL357N-G") (footprint "ELM357N-G:SOP254P700X200-4N")
@@ -5345,10 +5348,10 @@
       (reference "U7") (unit 1) (value "StepperDriver_Conn2") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
     )
     (path "/2e51a550-630c-4000-828f-f9b243602e9a/ab9c6e02-9936-4337-b505-06f476113a61"
-      (reference "U8") (unit 1) (value "StepperDriver") (footprint "QuarkCncQuadDriver:StepperDriverV2")
+      (reference "U8") (unit 1) (value "StepperDriver") (footprint "QuarkCncQuadDriver:StepperDriverV3")
     )
     (path "/2e51a550-630c-4000-828f-f9b243602e9a/ddf2561d-78cb-49d4-b745-e82cffdb38d3"
-      (reference "U9") (unit 1) (value "StepperDriver_Conn1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
+      (reference "U9") (unit 1) (value "StepperDriver_Conn1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical")
     )
     (path "/4cd68790-6ec8-4e30-93be-2add995a4b86/68d56830-5948-491b-9668-8360717c16bd"
       (reference "U10") (unit 1) (value "EL357N-G") (footprint "ELM357N-G:SOP254P700X200-4N")
@@ -5381,10 +5384,10 @@
       (reference "U19") (unit 1) (value "StepperDriver_Conn2") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
     )
     (path "/79947c1e-ee95-43a0-8f04-928d6fc76d98/ab9c6e02-9936-4337-b505-06f476113a61"
-      (reference "U20") (unit 1) (value "StepperDriver") (footprint "QuarkCncQuadDriver:StepperDriverV2")
+      (reference "U20") (unit 1) (value "StepperDriver") (footprint "QuarkCncQuadDriver:StepperDriverV3")
     )
     (path "/79947c1e-ee95-43a0-8f04-928d6fc76d98/ddf2561d-78cb-49d4-b745-e82cffdb38d3"
-      (reference "U21") (unit 1) (value "StepperDriver_Conn1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
+      (reference "U21") (unit 1) (value "StepperDriver_Conn1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical")
     )
     (path "/bf27cb00-183a-4c3d-b1e3-555a0e5db72e/c7e98848-7a43-460a-9df9-82a5dce8d5f6"
       (reference "U22") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
@@ -5405,10 +5408,10 @@
       (reference "U27") (unit 1) (value "StepperDriver_Conn2") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
     )
     (path "/5dac491f-10b6-4624-a242-93df549caa96/ab9c6e02-9936-4337-b505-06f476113a61"
-      (reference "U28") (unit 1) (value "StepperDriver") (footprint "QuarkCncQuadDriver:StepperDriverV2")
+      (reference "U28") (unit 1) (value "StepperDriver") (footprint "QuarkCncQuadDriver:StepperDriverV3")
     )
     (path "/5dac491f-10b6-4624-a242-93df549caa96/ddf2561d-78cb-49d4-b745-e82cffdb38d3"
-      (reference "U29") (unit 1) (value "StepperDriver_Conn1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
+      (reference "U29") (unit 1) (value "StepperDriver_Conn1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical")
     )
     (path "/bf27cb00-183a-4c3d-b1e3-555a0e5db72e/dc751552-b206-48e8-bc7c-25ca98082fe1"
       (reference "Y1") (unit 1) (value "X322512MSB4SI") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
